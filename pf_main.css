@@ -1,0 +1,70 @@
+
+
+td.td_arrow {
+    border: 1px solid black;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+}
+
+table {
+    border-bottom-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    table-layout: fixed;
+    
+}
+
+th {
+    background-color: #c7ffa7;
+}
+td {
+    background-color: #ffffff;
+}
+
+body {
+    background-image: url("./images/backImage.png");
+    background-color:rgba(255,255,255,0.85);
+    background-blend-mode:lighten;
+    width: 100%;
+    position: relative;
+  /*  overflow: auto; */
+    
+    overflow-x: hidden; /* 横スクロールバー */
+    overflow-y: auto;   /* 縦スクロールバー */
+    background-position: center;
+    background-size: 10%;
+    background-repeat: space-repeat;
+}
+
+.leftView {
+    position: relative;
+}
+
+.leftView p {
+  color: white;/*文字は白に*/
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  margin:0;
+  padding:0;
+}
+
+.rightView {
+    position: relative;
+}
+
+.rightView p {
+  position: absolute;/*絶対配置*/
+  color: white;/*文字は白に*/
+  top: 50%;
+  left: 88%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  margin:0;
+  padding:0;
+}
