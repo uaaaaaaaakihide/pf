@@ -2373,7 +2373,7 @@ const frameDisp = () => {
 */
 const gameOver = () => {
 	// 画面を緑に塗りつぶし
-	context.fillStyle = "red";
+	context.fillStyle = "orange";
 	context.fillRect(0, 0, gameBoard.FIELD_SIZE_X, gameBoard.FIELD_SIZE_Y);
 	
 	// ゲームオーバーループ突入
