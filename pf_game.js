@@ -2676,7 +2676,7 @@ const staffRollLoop = () => {
 		    break;
 		  case 3:
 			context.textAlign = 'center';	// 中央寄せ
-			context.fillStyle = "silver";
+			context.fillStyle = "#" + ("000000" + (Math.random() * 0xFFFFFF | 0).toString(16)).slice(-6);
 			context.font = "19px Arial";// フォントの設定
 			tmpX = gameBoard.FIELD_SIZE_X / 2;	// 文字表示位置設定
 			break;
